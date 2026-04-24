@@ -105,5 +105,28 @@ public class Primitives {
     char c9 = '9';
 
     // true/false -> boolean value
+
+    // +, -
+    char c10 = 'a';
+
+    
+    System.out.println('a' + 1); // 98
+
+    // ! char + int -> int
+    // ! assign 98 into c11
+    char c11 = 'a' + 1;
+    System.out.println(c11); // b
+
+    char c12 = 'a' + 25;
+    System.out.println(c12); // z
+
+    char ch1 = 'a';
+    char ch2 = 'b';
+
+    if (ch2 > ch1) { // compare ascii
+      System.out.println("ch2 ascii > ch1 ascii");
+    }
+
+
   }
 }
